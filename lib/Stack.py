@@ -26,4 +26,4 @@ class Stack:
         if target in self.items:
             return self.size()-1 - self.items.index(target)
         else:
-            return "-1"
+            return -1
